@@ -31,3 +31,10 @@ Note: the messages are not chronologically sorted.
 We offer a comprehensive study of this corpus in the following paper. This work presents a number of statistics, studies and baseline results for several machine learning methods.
 http://www.dt.fee.unicamp.br/~tiago/smsspamcollection/doceng11.pdf
 [Almeida, T.A., GÃ³mez Hidalgo, J.M., Yamakami, A. Contributions to the Study of SMS Spam Filtering: New Collection and Results. Proceedings of the 2011 ACM Symposium on Document Engineering (DOCENG'11), Mountain View, CA, USA, 2011.]
+
+**Aproach**:
+* First taking all as naive which means considering every feature extracted using BoW are independent and contribute differently to the class, used Naive Bayes Classifier.
+* Secondly applying more complex algorithm used ensemble learning approach like Random Forest, AdaBoost etc to get a better result.
+
+**Conclusion**:
+Using measuring performances like accuracy, precission, recall, AUC the classification model is evaluated to see from every aspect of performance measure.
